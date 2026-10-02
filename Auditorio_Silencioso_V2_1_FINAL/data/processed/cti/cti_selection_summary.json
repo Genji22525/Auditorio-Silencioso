@@ -1,0 +1,18 @@
+{
+  "source": "CIRCL OSINT / MISP",
+  "temporal_scope": "2024-2026",
+  "manifest_records": 1680,
+  "candidates_2024_2026": 366,
+  "R1_operational": 6,
+  "R2_contextual": 3,
+  "R3_excluded": 357,
+  "R1_event_uuids": [
+    "f7d4de59-58ac-409e-a3cb-d50261b3f825",
+    "11879a3f-0ca4-491b-8774-d30496e66b34",
+    "a9f67dbb-ba26-4635-be1d-0780bc140897",
+    "317bb250-bddd-4c57-82a3-5a068f5b8d7f",
+    "b0454a71-cd8b-440b-bf27-1a52800b2579",
+    "7e3793a8-59a9-4cf2-8299-9483007ff154"
+  ],
+  "note": "The classification is an explicit selection layer; no source IOC/TTP content was fabricated or enriched."
+}

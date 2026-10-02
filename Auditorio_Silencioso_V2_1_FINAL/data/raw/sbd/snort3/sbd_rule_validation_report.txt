@@ -1,0 +1,58 @@
+SBD-03 — RELATÓRIO DE CONSOLIDAÇÃO E VALIDAÇÃO
+
+Fonte 1: sbd_rule_audit_pass2(1).csv
+Fonte 2: sbd_rule_review_162_final(1).csv
+
+FLUXO DE SELEÇÃO
+- Regras candidatas auditadas: 1229
+- INCLUDE_HIGH: 1067
+- REVIEW: 162
+- Inclusões manuais: 124
+- Exclusões manuais: 38
+- Total selecionado para SBD-03 final: 1191
+
+CONSOLIDAÇÃO
+- Chave operacional verificada: SID + REV
+- Duplicidades SID+REV: 0
+- Linhas envolvidas em duplicidades SID+REV: 0
+- SIDs com mais de uma revisão selecionada: 0
+- Linhas com corpo de regra repetido exatamente: 0
+
+VALIDAÇÃO ESTRUTURAL
+- SID numérico: OK
+- REV numérico: OK
+- Campo essencial ausente — sid: 0
+- Campo essencial ausente — rev: 0
+- Campo essencial ausente — action: 0
+- Campo essencial ausente — protocol: 0
+- Campo essencial ausente — msg: 0
+- Campo essencial ausente — body: 0
+- Campo essencial ausente — classtype: 0
+- Mapeamentos de evento inválidos: 0
+
+DISTRIBUIÇÃO POR EVENTO (não mutuamente exclusiva quando há múltiplos eventos)
+- E01: 935
+- E02: 124
+- E03: 52
+- E04: 126
+- E05: 48
+
+DISTRIBUIÇÃO POR PROTOCOLO
+- tcp: 1089
+- udp: 70
+- ip: 19
+- http: 9
+- icmp: 2
+- ssl: 2
+
+CRITÉRIO DE FECHAMENTO
+- A consolidação utiliza apenas os dois arquivos fornecidos nesta etapa.
+- Não houve seleção baseada em CTI, Ground Truth ou resultados experimentais.
+- Revisões diferentes não foram tratadas como detecções independentes.
+- Nenhuma nova regra foi criada ou reparada para entrar no conjunto.
+- O dataset operacional deve ser considerado congelado após esta validação, salvo correção de erro documental/estrutural comprovado.
+
+OBSERVAÇÃO SOBRE O CAMPO `msg`
+- O arquivo-fonte `sbd_rule_audit_pass2(1).csv` apresenta a coluna `msg` vazia para as regras, mas preserva a regra completa no campo `body`.
+- Para o dataset final, o campo `msg` foi recuperado diretamente do `body` por extração sintática do atributo msg:"...".
+- O conteúdo da regra não foi alterado; trata-se apenas de normalização estrutural para preservar um campo útil de rastreabilidade.

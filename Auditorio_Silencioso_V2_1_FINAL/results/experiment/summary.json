@@ -1,0 +1,135 @@
+{
+  "seeds": [
+    2,
+    31
+  ],
+  "executions": 60,
+  "engines": {
+    "CTI": {
+      "executions": 30,
+      "detection_rate": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "coverage": {
+        "mean": 0.6333333333333333,
+        "median": 0.6,
+        "stdev": 0.13978637231524924,
+        "n": 30
+      },
+      "ttd": {
+        "mean": 23.933333333333334,
+        "median": 20.0,
+        "stdev": 8.029829445233581,
+        "n": 30
+      },
+      "ttc": {
+        "mean": 4.0,
+        "median": 4.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "hosts_compromised": {
+        "mean": 3.1666666666666665,
+        "median": 3.0,
+        "stdev": 0.6989318615762461,
+        "n": 30
+      },
+      "hosts_impacted": {
+        "mean": 1.0333333333333334,
+        "median": 1.0,
+        "stdev": 0.6149478998583782,
+        "n": 30
+      },
+      "hosts_preserved": {
+        "mean": 1.8333333333333333,
+        "median": 2.0,
+        "stdev": 0.6989318615762461,
+        "n": 30
+      },
+      "hosts_isolated": {
+        "mean": 1,
+        "median": 1.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "impact_before_detection": {
+        "mean": 0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "impact_before_containment": {
+        "mean": 0.1,
+        "median": 0.0,
+        "stdev": 0.30512857662936466,
+        "n": 30
+      }
+    },
+    "SBD": {
+      "executions": 30,
+      "detection_rate": {
+        "mean": 1.0,
+        "median": 1.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "coverage": {
+        "mean": 0.64,
+        "median": 0.6,
+        "stdev": 0.13287276776598397,
+        "n": 30
+      },
+      "ttd": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "ttc": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "n": 0
+      },
+      "hosts_compromised": {
+        "mean": 3.2,
+        "median": 3.0,
+        "stdev": 0.6643638388299198,
+        "n": 30
+      },
+      "hosts_impacted": {
+        "mean": 1.0333333333333334,
+        "median": 1.0,
+        "stdev": 0.6149478998583782,
+        "n": 30
+      },
+      "hosts_preserved": {
+        "mean": 1.8,
+        "median": 2.0,
+        "stdev": 0.6643638388299198,
+        "n": 30
+      },
+      "hosts_isolated": {
+        "mean": 0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "impact_before_detection": {
+        "mean": 0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "n": 30
+      },
+      "impact_before_containment": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "n": 0
+      }
+    }
+  }
+}

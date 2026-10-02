@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+results/runs/*.json
+results/plots/*.png
+results/metrics/*.csv
+results/metrics/*.json

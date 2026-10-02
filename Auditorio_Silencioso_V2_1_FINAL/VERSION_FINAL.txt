@@ -1,0 +1,7 @@
+Auditório Silencioso V2.1 — versão experimental definitiva
+
+Banco oficial: auditorio_silencioso_v3
+Protocolo: seeds 2–31, CTI + SBD, 60 execuções positivas
+CTI R1: 6 registros
+SBD: 1191 regras
+Código auditado: 7 testes automatizados aprovados

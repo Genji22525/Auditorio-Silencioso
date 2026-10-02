@@ -1,0 +1,878 @@
+[
+  {
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:malpedia=\"Phobos\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:sigma-rules=\"Publicly Accessible RDP Service\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Exploit Public-Facing Application - T1190\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"External Remote Services - T1133\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:sector=\"Health\"",
+        "relationship_type": "targets"
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"Phobos\"",
+        "relationship_type": ""
+      }
+    ],
+    "info": "OSINT - Backmydata Ransomware Indicators of Compromise (IOCs) - alerts - dnsc.ro",
+    "date": "2024-02-19",
+    "analysis": 2,
+    "threat_level_id": 4,
+    "timestamp": 1708337267,
+    "event_uuid": "f7d4de59-58ac-409e-a3cb-d50261b3f825",
+    "source": "CIRCL OSINT / MISP",
+    "classification": "R1",
+    "selection_reason": "Ransomware diretamente relevante e operacionalmente estruturado, com TTPs/indicadores ou contexto técnico suficiente para alimentar o conhecimento prévio experimental."
+  },
+  {
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"Akira\"",
+        "relationship_type": "attributed-to"
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Valid Accounts - T1078\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Exploit Public-Facing Application - T1190\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"External Remote Services - T1133\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Spearphishing Attachment - T1566.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Spearphishing Link - T1566.002\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"/etc/passwd and /etc/shadow - T1003.008\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"LSASS Memory - T1003.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"System Network Configuration Discovery - T1016\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"System Information Discovery - T1082\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Domain Trust Discovery - T1482\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Process Discovery - T1057\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Local Groups - T1069.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Domain Groups - T1069.002\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Remote System Discovery - T1018\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:region=\"150 - Europe\"",
+        "relationship_type": "targets"
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:region=\"021 - Northern America\"",
+        "relationship_type": "targets"
+      },
+      {
+        "colour": "#064f00",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Domain Account - T1136.002\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Disable or Modify Tools - T1562.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#542f20",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Remote Access Software - T1219\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Connection Proxy - T1090\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#054100",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Archive via Utility - T1560.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Exfiltration Over Alternative Protocol - T1048\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Transfer Data to Cloud Account - T1537\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Exfiltration to Cloud Storage - T1567.002\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Data Encrypted for Impact - T1486\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Inhibit System Recovery - T1490\"",
+        "relationship_type": ""
+      }
+    ],
+    "info": "OSINT - #StopRansomware: Akira Ransomware",
+    "date": "2024-04-19",
+    "analysis": 0,
+    "threat_level_id": 2,
+    "timestamp": 1713537157,
+    "event_uuid": "11879a3f-0ca4-491b-8774-d30496e66b34",
+    "source": "CIRCL OSINT / MISP",
+    "classification": "R1",
+    "selection_reason": "Ransomware diretamente relevante e operacionalmente estruturado, com TTPs/indicadores ou contexto técnico suficiente para alimentar o conhecimento prévio experimental."
+  },
+  {
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#931d5c",
+        "local": false,
+        "name": "misp-galaxy:misp-attack-pattern=\"Initial Access - Phishing [T1566]\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#81ba8c",
+        "local": false,
+        "name": "misp-galaxy:misp-attack-pattern=\"Defense Evasion - Impair Defenses: Disable or Modify Tools [T1562.001]\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#12646a",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"3cbb3d7b-4cae-4c7e-a682-e8b70e3f1ee4\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#9f4fe6",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"2c373316-6ce5-4f43-9daf-02c94cb0c0a5\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#2dc215",
+        "local": false,
+        "name": "misp-galaxy:misp-attack-pattern=\"Impact - Inhibit System Recovery [T1490]\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#68efec",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"f0a904f4-b3f5-4e42-b565-418dc6932d44\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#45eb95",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"fc5b8a15-c3de-4c93-803a-ce92b76e54e7\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#acd35e",
+        "local": false,
+        "name": "misp-galaxy:misp-attack-pattern=\"Initial Access - Valid Accounts [T1078]\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#2f25f9",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"69d1635c-cd2b-4331-8a2c-8b66e98f45d8\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#cb99f6",
+        "local": false,
+        "name": "misp-galaxy:misp-attack-pattern=\"Impact - Data Encrypted for Impact [T1486]\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0087e8",
+        "local": false,
+        "name": "osint:certainty=\"50\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "info": "CISA - AA24-131A #StopRansomware: Black Basta",
+    "date": "2024-05-10",
+    "analysis": 2,
+    "threat_level_id": 3,
+    "timestamp": 1721396492,
+    "event_uuid": "a9f67dbb-ba26-4635-be1d-0780bc140897",
+    "source": "CIRCL OSINT / MISP",
+    "classification": "R1",
+    "selection_reason": "Ransomware diretamente relevante e operacionalmente estruturado, com TTPs/indicadores ou contexto técnico suficiente para alimentar o conhecimento prévio experimental."
+  },
+  {
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#86c437",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"7e0ace8d-1170-5ba6-953b-07f0edb931e5\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#245764",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"68936c88-a7d9-5c57-87d5-82cee0258446\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#961351",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"4980a23b-8576-5f43-919f-be1d65511c71\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#a1aaf6",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"a9732dfc-5d7f-5613-a990-e75667575a20\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#07ccb8",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"6e60f5c4-cab1-54e7-99eb-e2243d934596\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#9e186e",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"8beef3c6-31f3-592a-8f2c-1a35f1454621\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#6552ba",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"2d516005-9134-548b-b85f-5f827436dc8c\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#07bf7d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"bc83dee5-b6d3-5534-8a27-11345878471a\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ee9742",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"6232b886-5dee-508f-a0c9-6c96ffa34455\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#58fe96",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"04ad4243-c5bb-552b-8eca-fa4b48befb68\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"ransomhub\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"cyclops\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"knight\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "info": "CISA - AA24-242A #StopRansomware: RansomHub Ransomware",
+    "date": "2024-08-30",
+    "analysis": 2,
+    "threat_level_id": 2,
+    "timestamp": 1725006937,
+    "event_uuid": "317bb250-bddd-4c57-82a3-5a068f5b8d7f",
+    "source": "CIRCL OSINT / MISP",
+    "classification": "R1",
+    "selection_reason": "Ransomware diretamente relevante e operacionalmente estruturado, com TTPs/indicadores ou contexto técnico suficiente para alimentar o conhecimento prévio experimental."
+  },
+  {
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"dragonforce\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Valid Accounts - T1078\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"PowerShell - T1059.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#064d00",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Domain Accounts - T1078.002\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Registry Run Keys / Startup Folder - T1547.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#065100",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Windows Service - T1543.003\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Clear Windows Event Logs - T1070.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"LSASS Memory - T1003.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Domain Trust Discovery - T1482\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Remote System Discovery - T1018\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"System Network Configuration Discovery - T1016\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"System Information Discovery - T1082\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"File and Directory Discovery - T1083\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Remote Desktop Protocol - T1021.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Web Protocols - T1071.001\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:mitre-attack-pattern=\"Data Encrypted for Impact - T1486\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "info": "OSINT - Inside the Dragon: DragonForce Ransomware Group",
+    "date": "2024-10-01",
+    "analysis": 0,
+    "threat_level_id": 3,
+    "timestamp": 1727768647,
+    "event_uuid": "b0454a71-cd8b-440b-bf27-1a52800b2579",
+    "source": "CIRCL OSINT / MISP",
+    "classification": "R1",
+    "selection_reason": "Ransomware diretamente relevante e operacionalmente estruturado, com TTPs/indicadores ou contexto técnico suficiente para alimentar o conhecimento prévio experimental."
+  },
+  {
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#cb630a",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"9b611c3f-6b02-5902-b9e8-17712d5f5d41\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#53f418",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"7b350f17-4a7f-5bcf-8d70-99ad68d6e877\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#1abd7d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"448a3535-d185-51ea-8a27-44653d7564af\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#3ab4df",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"d3348f0a-7fac-56b0-9451-5964969db1e8\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#40fc13",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"46bbfd46-eafe-54ca-9650-ab508cc8a674\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#6b3d7c",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"70ba8a57-1955-5bfc-b9bb-62d7de6b8a57\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#3367e3",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"b4e42a35-5b21-5ebd-b3ac-c76e82697b4e\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#af5e1e",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"e3dda5ee-f8f5-57bd-b93b-9e5099efa9f9\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#762a98",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"d403910f-4795-5b3a-83ea-829d77a27ea0\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#b207c2",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"6eff3df2-d200-578a-a415-73c07dad1d0f\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#50f90f",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"8e68267c-4e0b-5f11-837a-dcaef267cac0\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#f1f521",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"a55a55fe-f531-5cc7-b355-ff840f1939b3\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#5799b2",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"82659de7-1b3f-5f03-a372-75473da90e83\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#3ce1db",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"1fedf479-4f99-5863-aec6-4c12bb571586\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#c6a04d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"d2f0ca00-0de6-50fe-bf4a-b7b421c7ae1d\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#5adac5",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"591d9c18-7da9-55fe-8578-25f2d11eef8e\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#3b89eb",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"56d63469-4d9f-5acc-9b40-aded774106ad\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#96b98f",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"a7a98e8d-3c74-5527-a1d3-2d5e35a5c976\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#75fa03",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"91f8ecb8-c1e8-5979-ba37-5bacc384138b\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#d7ce1d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"1c2865ae-25a9-50c7-b3f2-a981a62ceaec\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#16597d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"f5895575-716d-5499-aa94-263a31963495\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ec7afe",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"6466ddc0-6916-51a4-a694-297a300cfdd8\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#167e41",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"293a8af8-95bf-5a60-9fd1-5261ce8dfc01\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#67880d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"cada2b2e-5bb9-50c2-baa9-931281cdb4da\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#7f67b4",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"5684f76d-1dcd-5ce4-95b4-9a9d3d26bc3d\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#d96ba0",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"a78878fd-ab24-5465-a78d-e63d1f6aa9c5\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#3fdf8e",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"85e10e04-66f1-5a89-b31d-18772c539503\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#8ebdec",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"2bd2a65d-f22a-5d2e-a1a2-6264f0efec7e\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#028aad",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"76f4c676-64c5-5ee8-bc91-36574c08dada\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#51e64d",
+        "local": false,
+        "name": "misp-galaxy:stix-2.1-attack-pattern=\"c86a5059-d498-5084-bd88-ee079ef921ad\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:ransomware=\"medusa\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0087e8",
+        "local": false,
+        "name": "osint:certainty=\"50\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      }
+    ],
+    "info": "AA25-071A Stop Ransomware: Medusa Ransomware",
+    "date": "2025-03-03",
+    "analysis": 0,
+    "threat_level_id": 3,
+    "timestamp": 1741853219,
+    "event_uuid": "7e3793a8-59a9-4cf2-8299-9483007ff154",
+    "source": "CIRCL OSINT / MISP",
+    "classification": "R1",
+    "selection_reason": "Ransomware diretamente relevante e operacionalmente estruturado, com TTPs/indicadores ou contexto técnico suficiente para alimentar o conhecimento prévio experimental."
+  }
+]

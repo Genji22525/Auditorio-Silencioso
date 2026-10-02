@@ -1,0 +1,17 @@
+{
+  "scenario_id": "SCN-000001",
+  "scenario_version": "2.1",
+  "seed_range": [
+    2,
+    31
+  ],
+  "engines": [
+    "CTI",
+    "SBD"
+  ],
+  "total_executions": 60,
+  "cti_dataset": "data/processed/cti/cti_operational_r1.json",
+  "sbd_dataset": "data/processed/sbd/selected_rules.json",
+  "ground_truth": "independent per execution",
+  "negative_population": false
+}
